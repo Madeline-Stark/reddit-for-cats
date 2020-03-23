@@ -1,0 +1,5 @@
+<%= @post.title %> <br>
+<%= @post.content %>
+<br>
+<%= link_to "Edit #{@post.title}", edit_post_path(@post) %>
+<%= button_to "Delete post", post_path(@post), method: :delete %>
