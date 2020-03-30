@@ -14,6 +14,7 @@
   </body>
   <footer>
   <%= link_to "All Posts", posts_path %>
-  <%= link_to "Make a New Post", new_post_path %>
+  <%= link_to "Make a New Post", new_user_post_path(current_user) %>
+  <%= link_to "My Posts", user_posts_path(current_user) %>
   </footer>
 </html>

@@ -31,4 +31,7 @@ D
 delete delete '/posts/:id'
 
 To dos
+- finish create action
 - make nested form
+- validations
+- custom helpers

@@ -1,3 +1,11 @@
+<% if @post.errors %>
+    <% @post.errors.full_messages.each do |msg| %>
+        <p style="color:red"><%= msg %></p>
+    <% end %>
+<% end %>
+
+
+
 <h1>Make A New Post</h1>
 <%= render "form" %>
 
